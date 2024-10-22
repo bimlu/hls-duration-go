@@ -6,6 +6,9 @@
 - Calculates the total duration of a VOD based on the media segments in the playlists.
 - Supports multiple media variants from the master playlist.
 
+## Todos
+- Optimize it. no need to fetch all the media manifest. only one is sufficient to calculate the duration.
+
 ## Installation
 Install the package using go get:
 
